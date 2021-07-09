@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function popup(message){
+                alert(message);
+                window.history.back();
+            }
+        </script>
+    </head>
+    <!-- 페이지가 열릴 때 실행 -->
+    <body onload="popup('<%=message%>')"></body>
+</html>
